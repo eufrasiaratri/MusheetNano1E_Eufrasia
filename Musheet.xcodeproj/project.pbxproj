@@ -13,6 +13,12 @@
 		69B61C902818DF23005FF9F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B61C8E2818DF23005FF9F7 /* Main.storyboard */; };
 		69B61C922818DF25005FF9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B61C912818DF25005FF9F7 /* Assets.xcassets */; };
 		69B61C952818DF25005FF9F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B61C932818DF25005FF9F7 /* LaunchScreen.storyboard */; };
+		69B61C9D2818E2CB005FF9F7 /* Trattatello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69B61C9C2818E2CB005FF9F7 /* Trattatello.ttf */; };
+		69B61CC3281A3634005FF9F7 /* MusheetCore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69B61CC1281A3634005FF9F7 /* MusheetCore.xcdatamodeld */; };
+		69B61CC5281A3CDE005FF9F7 /* MyMusicSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B61CC4281A3CDE005FF9F7 /* MyMusicSheetViewController.swift */; };
+		69B61CC7281A3D61005FF9F7 /* AddSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B61CC6281A3D61005FF9F7 /* AddSheetViewController.swift */; };
+		69B61CC9281B0435005FF9F7 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B61CC8281B0435005FF9F7 /* SplashViewController.swift */; };
+		69B61CCB281B8363005FF9F7 /* MusicSheetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B61CCA281B8363005FF9F7 /* MusicSheetTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		69B61C912818DF25005FF9F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69B61C942818DF25005FF9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69B61C962818DF25005FF9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B61C9C2818E2CB005FF9F7 /* Trattatello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Trattatello.ttf; path = ../../../Desktop/Trattatello.ttf; sourceTree = "<group>"; };
+		69B61CC2281A3634005FF9F7 /* MusheetCore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusheetCore.xcdatamodel; sourceTree = "<group>"; };
+		69B61CC4281A3CDE005FF9F7 /* MyMusicSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicSheetViewController.swift; sourceTree = "<group>"; };
+		69B61CC6281A3D61005FF9F7 /* AddSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSheetViewController.swift; sourceTree = "<group>"; };
+		69B61CC8281B0435005FF9F7 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		69B61CCA281B8363005FF9F7 /* MusicSheetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSheetTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,7 @@
 		69B61C7C2818DF23005FF9F7 = {
 			isa = PBXGroup;
 			children = (
+				69B61CCA281B8363005FF9F7 /* MusicSheetTableViewCell.swift */,
 				69B61C872818DF23005FF9F7 /* Musheet */,
 				69B61C862818DF23005FF9F7 /* Products */,
 			);
@@ -60,9 +73,14 @@
 				69B61C8A2818DF23005FF9F7 /* SceneDelegate.swift */,
 				69B61C8C2818DF23005FF9F7 /* ViewController.swift */,
 				69B61C8E2818DF23005FF9F7 /* Main.storyboard */,
+				69B61C9C2818E2CB005FF9F7 /* Trattatello.ttf */,
 				69B61C912818DF25005FF9F7 /* Assets.xcassets */,
 				69B61C932818DF25005FF9F7 /* LaunchScreen.storyboard */,
 				69B61C962818DF25005FF9F7 /* Info.plist */,
+				69B61CC1281A3634005FF9F7 /* MusheetCore.xcdatamodeld */,
+				69B61CC4281A3CDE005FF9F7 /* MyMusicSheetViewController.swift */,
+				69B61CC6281A3D61005FF9F7 /* AddSheetViewController.swift */,
+				69B61CC8281B0435005FF9F7 /* SplashViewController.swift */,
 			);
 			path = Musheet;
 			sourceTree = "<group>";
@@ -128,6 +146,7 @@
 				69B61C952818DF25005FF9F7 /* LaunchScreen.storyboard in Resources */,
 				69B61C922818DF25005FF9F7 /* Assets.xcassets in Resources */,
 				69B61C902818DF23005FF9F7 /* Main.storyboard in Resources */,
+				69B61C9D2818E2CB005FF9F7 /* Trattatello.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B61CC3281A3634005FF9F7 /* MusheetCore.xcdatamodeld in Sources */,
 				69B61C8D2818DF23005FF9F7 /* ViewController.swift in Sources */,
+				69B61CC7281A3D61005FF9F7 /* AddSheetViewController.swift in Sources */,
+				69B61CC5281A3CDE005FF9F7 /* MyMusicSheetViewController.swift in Sources */,
 				69B61C892818DF23005FF9F7 /* AppDelegate.swift in Sources */,
+				69B61CCB281B8363005FF9F7 /* MusicSheetTableViewCell.swift in Sources */,
+				69B61CC9281B0435005FF9F7 /* SplashViewController.swift in Sources */,
 				69B61C8B2818DF23005FF9F7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +382,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69B61CC1281A3634005FF9F7 /* MusheetCore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69B61CC2281A3634005FF9F7 /* MusheetCore.xcdatamodel */,
+			);
+			currentVersion = 69B61CC2281A3634005FF9F7 /* MusheetCore.xcdatamodel */;
+			path = MusheetCore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 69B61C7D2818DF23005FF9F7 /* Project object */;
 }
